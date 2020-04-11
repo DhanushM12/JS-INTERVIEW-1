@@ -9,3 +9,12 @@ const squaredNums = arr.customMap((item, index) => {
 }); 
 console.log(squaredNums); // should output [1, 4, 9]
 console.log(arr); // should output [1, 2, 3] */
+
+Array.prototype.customMap = function (callBack) {
+  const maparr = []; //empty array initialized
+  //looping through the array elemenys
+  for (let i = 0; i < arr.length; i++) {
+    maparr.push(callBack(arr[i])); // calling the callback once for each element && returned value is added to maparr array
+  }
+  return maparr;
+};
