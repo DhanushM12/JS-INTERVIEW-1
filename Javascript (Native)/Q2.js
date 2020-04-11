@@ -16,3 +16,11 @@ f: 45
 console.log(propertyExists(obj, ‘c.d’)); // should output 100
 console.log(propertyExists(obj, ‘c.d.g.h’)); // should output false
 console.log(propertyExists(obj, ‘a.b’)); // should output false console.log(propertyExists(obj, ‘c.d.e.f’)); // should output 45 */
+
+function propertyExists(obj, str) {
+  if (obj.str.hasOwnProperty()) {
+    return obj.str;
+  } else {
+    return false;
+  }
+}
