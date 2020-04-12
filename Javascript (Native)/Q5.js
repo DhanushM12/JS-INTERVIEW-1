@@ -5,3 +5,4 @@ function display() {
     console.log(this);
 }
 // calling display() should output {a: 100} */
+JSON.stringify(obj).display();
