@@ -1,5 +1,6 @@
 // Q11. Implement Stack class in JS.
 
+//It uses LIFO
 class Stack {
   constructor() {
     this.data = []; // array created to store stack data
