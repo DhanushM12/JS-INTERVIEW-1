@@ -2,3 +2,7 @@
 
 console.log(sum(1)(2)); // should output 3
 console.log(sum(10)(2)); // should output 12 */
+
+function sum(a, b) {
+  return a + b;
+}
