@@ -17,7 +17,7 @@ class LinkedList {
   // functions to be implemented
   // add(element)
   // adds the element to linked list
-  push(element) {
+  add(element) {
     // creates a new node
     var node = new Node(element);
 
@@ -43,7 +43,7 @@ class LinkedList {
   }
   // removeElement(element)
   // removes a given element from the linked list
-  removeElement(element) {
+  remove(element) {
     var current = this.head;
     var prev = null;
 
