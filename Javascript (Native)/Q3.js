@@ -3,3 +3,7 @@
 Example:
 “I am a string”.strContains(‘@’); // should return false
 “I am a string”.strContains(‘a’); // should return true */
+
+function strContains(string, char) {
+  return string.includes(char);
+}
